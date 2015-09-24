@@ -3,7 +3,7 @@
             @contact: kyanro@gmail.com
  ********************************/
  html {
-   background: url(images/jasper.jpg) no-repeat center center fixed;
+   background-image: url(images\jasper.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -76,7 +76,7 @@ a:visited {
 
 
 #header #photo {
-  background:url(images/jasper.jpg);
+  background-image:url(images\jasper.jpg);
   background-size:cover;
 	position: absolute;
 	top:0;
@@ -86,7 +86,7 @@ a:visited {
 	overflow: hidden;
   z-index: -2;
   filter: grayscale(100%);
-} 
+}
 
  #header .header-content {
    padding-left: 20%;
